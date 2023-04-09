@@ -9,7 +9,7 @@ function TablePage() {
   const [sortDirection, setSortDirection] = useState("asc");
 
   useEffect(() => {
-    axios.get("https://crudcrud.com/api/14d6533fb19d48afa552b1b53a2fe84d/apiassignment")
+    axios.get("https://crudcrud.com/api/823d1cb5184645eab04e949921281455/fastjobassignment")
       .then(response => {
         setData(response.data);
         setFilteredData(response.data);

@@ -47,7 +47,7 @@ const LoginPage = () => {
     <form onSubmit={handleLogin}>
     <div className={classes.login}>
       <label>
-        Username:
+        Username:&nbsp;&nbsp;
         <input
           type="text"
           value={username}
@@ -55,7 +55,7 @@ const LoginPage = () => {
         />
       </label></div>
       <label>
-        Password:
+        Password:&nbsp;&nbsp;
         <input
           type="password"
           value={password}
