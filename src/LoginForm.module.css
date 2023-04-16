@@ -1,0 +1,23 @@
+form{
+    background-color: rgb(243, 169, 240);
+    width: 400px;
+    height: 200px;
+    margin:100px 200px 200px 400px;
+}
+label{
+    text-align: center;
+    padding:10px;
+}
+input{
+    border-radius: 20px;
+    padding:10px;
+    margin:5px;
+}
+button{
+    border-radius: 20px;
+    padding:10px;
+    margin:10px;
+    color:white;
+    background-color: rgb(142, 77, 203);
+    
+}
